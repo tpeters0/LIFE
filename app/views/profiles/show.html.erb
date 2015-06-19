@@ -1,0 +1,21 @@
+<h1><%= @profile.name %></h1>
+
+<h2>Age: <%= @profile.age %></h2>
+<h2>Occupation: <%= @profile.occupation %></h2>
+
+<div class="profile_image">
+	<img src="<%= @profile.image %>">
+</div>
+
+<h2>Stories:</h2>
+
+<ul>
+  <% @profile.stories.each do |story| %>
+    <li><%= link_to story.heading, story_path(story) %></li>
+  <% end %>
+</ul>
+
+<div class="profile_actions">
+  <a href="/profiles/<%= @profile.id %>/edit">Edit</a>
+  <%= button_to("Delete", profile_path(@profile), :method => :delete) %>
+</div>

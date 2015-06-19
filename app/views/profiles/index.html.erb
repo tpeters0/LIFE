@@ -1,0 +1,9 @@
+<h1>Browse Contributors</h1>
+
+<div class="all_contributors">
+  <ul class="contributors">
+    <% @profiles.each do |profile| %>
+      <li><%= link_to profile.name, profile_path(profile) %> (<%= profile.age %>), <%= profile.occupation %></li>
+    <% end %>
+  </ul>
+</div>

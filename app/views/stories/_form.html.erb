@@ -1,0 +1,36 @@
+<%= form_for @story do |f| %>
+
+  <div>
+   <%= f.label               :category %>
+   <%= f.collection_select(:category_id, Category.all, :id, :name) %>
+  </div>
+
+  <div>
+   <%= f.label               :heading, "Title" %>
+   <%= f.text_field          :heading %>
+  </div>
+
+  <div>
+   <%= f.label               :body, "Share your experience" %>
+   <%= f.text_field          :body %>
+  </div>
+
+  <div>
+   <%= f.label               :lesson, "What did you learn from this experience?" %>
+   <%= f.text_field          :lesson %>
+  </div>
+
+  <div>
+   <%= f.label               :photo_url, "Add a photo url" %>
+   <%= f.text_field          :photo_url %>
+  </div>
+
+  <div>
+    <%= f.hidden_field       :profile_id, :value => current_user.profile.id %>
+  </div>
+
+  <div>
+   <%= f.submit %>
+  </div>
+
+<% end %>

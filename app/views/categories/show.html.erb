@@ -1,0 +1,10 @@
+<h1><%= @category.name %></h1>
+
+<ul>
+ <% @category.stories.each do |story| %>
+ <li>  <%= link_to story.heading, story_path(story) %> </li>
+ <% end %>
+</ul>
+
+<h3> Learn more </h3>
+<small>(Links to outside pages)</small>

@@ -1,0 +1,63 @@
+body {
+  font-family: 'Ruda', sans-serif;
+  /*tan*/
+  background-color: rgba(255, 255, 204, 1);
+  /*red*/
+  color: rgba(184, 0, 0, 1);
+}
+footer {
+  /*blue*/
+  color: rgba(0, 51, 153, 1);
+}
+.logo a, .home_logo h1 {
+  /*red*/
+  color: rgba(184, 0, 0, 1);
+}
+h1, h3, h4, small {
+  /*blue*/
+  color: rgba(0, 51, 153, 1);
+}
+h2 {
+  /*red*/
+  color: rgba(184, 0, 0, 1);
+}
+.content {
+  /*yellow*/
+  background-color: rgba(255, 153, 0, .75);
+}
+
+/*body links*/
+.all_categories a:link, .all_stories a:link, .all_contributors a:link {
+  color: rgba(0, 51, 153, 1);
+}
+.all_categories a:visited, .all_stories a:visited, .all_contributors a:visited {
+  color: rgba(0, 102, 0, 1);
+}
+.all_categories a:hover, .all_stories a:hover, .all_contributors a:hover {
+  color: rgba(255, 255, 204, 1);
+}
+input[type="submit"] {
+  background-color: rgba(0, 102, 0, 1);
+  color: rgba(255, 255, 204, 1);
+  border: none;
+  font-family: 'Ruda', sans-serif;
+  font-size: 16px;
+}
+input[type="submit"]:hover {
+  background-color: rgba(0, 51, 153, 1);
+}
+
+/*Navigation elements*/
+.nav_bar {
+  background-color: rgba(255, 153, 0, .75);
+}
+
+.menu a{
+  color: rgba(255, 255, 204, 1);
+  background-color: rgba(255, 153, 0, .75);
+}
+
+.menu a:hover {
+  /*green*/
+  background-color: rgba(0, 102, 0, 1);
+}
