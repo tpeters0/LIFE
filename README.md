@@ -34,5 +34,5 @@ The categories of stories of learning experiences are:
 4. Cultural Exposure
 5. Other
 
-* More task information and user stories can be found at: https://trello.com/b/O9CYPwVI/team-niner
-* Deployed at:  https://desolate-anchorage-5031.herokuapp.com/
+More task information and user stories can be found at: https://trello.com/b/O9CYPwVI/team-niner
+Deployed at:  https://desolate-anchorage-5031.herokuapp.com/
