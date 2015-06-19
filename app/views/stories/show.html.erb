@@ -1,10 +1,10 @@
 <h1><%= @story.heading %></h1>
-
 <h2>Author: <%= link_to @story.profile.name, profile_path(@story.profile) %></h2>
 
 <div class="story_image">
 	<img src="<%= @story.photo_url %>">
 </div>
+
 
 <ul>
   <li><h4>Category: </h4><%= Category.find_by(id: @story.category_id).name %></li>
@@ -13,6 +13,7 @@
 </ul>
 
 <div class="story_actions">
-	<a href="/stories/<%= @story.id %>/edit">Edit</a>
+	<a href="/stories/<%= @story.id %>/edit">Edit</a> 
 	<%= button_to("Delete", story_path(@story), :method => :delete) %>
 </div>
+

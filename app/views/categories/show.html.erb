@@ -8,3 +8,14 @@
 
 <h3> Learn more </h3>
 <small>(Links to outside pages)</small>
+
+<ul>
+
+ <% counter = 0 %>
+ <% while counter < @links.length %>
+     <li>
+       <a href="<%= @links[counter][:link] %>" target="_blank"><%="#{@links[counter][:site]}" %></a>
+     </li>
+   <% counter += 1 %>
+ <% end %>
+</ul>
