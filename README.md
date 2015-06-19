@@ -28,11 +28,13 @@ redirected to log in or sign-up to log in.
 
 
 The categories of stories of learning experiences are:
-1. Volunteering
-2. Interpersonal Relationships
-3. Vocational Training
-4. Cultural Exposure
-5. Other
+
+    1. Volunteering
+    2. Interpersonal Relationships
+    3. Vocational Training
+    4. Cultural Exposure
+    5. Other
 
 More task information and user stories can be found at: https://trello.com/b/O9CYPwVI/team-niner
+
 Deployed at:  https://desolate-anchorage-5031.herokuapp.com/
