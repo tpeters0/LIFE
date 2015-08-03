@@ -4,34 +4,34 @@ Category.destroy_all
 
 profiles = [
   {
-    name: "Smokey the Bear",
+    name: "Roger",
     age: 71,
     occupation: "Fire Protection Engineer",
-    image: "http://upload.wikimedia.org/wikipedia/commons/6/62/SmokeyTheBearHeadshot.GIF"
+    image: "http://leader-call.com/wp-content/uploads/2015/07/STORAGE-FACILITY-FIRE.jpg"
   },
   {
-    name: "Michelle Obama",
+    name: "Michelle P.",
     age: 51,
     occupation: "Government",
-    image: "http://myhero.com/images/guest/g266634/hero92090/michelle-obama-thumb.jpg"
+    image: "http://www.bestvalueschools.com/wp-content/uploads/2014/04/green-animals-topiary-garden.jpg"
   },
   {
-    name: "Snoopy",
+    name: "Ace of the Sky",
     age: 21,
     occupation: "Pilot",
-    image: "http://www.picgifs.com/clip-art/cartoons/snoopy/clip-art-snoopy-124159.jpg"
+    image: "http://www.airforce-technology.com/projects/f-5tiger2/images/1-f5-tiger-fighter-jet.jpg"
   },
   {
-    name: "Frodo Baggins",
+    name: "Fred Baggins",
     age: 33,
     occupation: "Courier",
-    image: "http://fc04.deviantart.net/fs70/f/2014/282/3/6/frodo_baggins_x_reader__games_we_play__au___by_case2000-d80790n.jpg"
+    image: "http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/is_my_cat_normal_slideshow/photolibrary_rf_photo_of_cat_eating_red_yarn.jpg"
   },
   {
-    name: "Lucy Ricardo",
+    name: "Lucy Sun",
     age: 37,
-    occupation: "Hijinks",
-    image: "http://vignette1.wikia.nocookie.net/p__/images/a/ac/Lucy_Ricardo.png/revision/latest?cb=20150305142341&path-prefix=protagonist"
+    occupation: "Translator",
+    image: "http://www.blogos.org/thetakeaway/images/150216-lucy-review.jpg"
   }
 ]
 
@@ -68,39 +68,39 @@ stories = [
     body: "Created PSAs to encourage park visitors to take personal responsibility for their actions",
     lesson: "Communication, PR",
     photo_url: "http://www.adlibbing.org/wp-content/uploads/2014/08/smokey-cub.jpg",
-    author: "Smokey the Bear"
+    author: "Roger"
   },
   {
     category: "Other",
     heading: "Planting a Garden",
     body: "Planted a garden with local kids to encourage healthy eating and encourage collaboration",
     lesson: "Developing community, health",
-    photo_url:  "http://www4.pictures.zimbio.com/gi/First+Lady+Michelle+Obama+Holds+Food+Nutrition+IjfGZDCAEUtl.jpg",
-    author: "Michelle Obama"
+    photo_url:  "http://192.185.156.123/~sagelan/wp-content/uploads/2014/05/community-garden-kids-plant-590jn071410-1279147997.jpg",
+    author: "Michelle P."
   },
   {
     category: "Vocational Training",
     heading: "Flight School",
     body: "Dealing with frustration and adversity while pursuing the Red Baron",
     lesson: "Determination, focus",
-    photo_url:  "http://www.morningtoast.com/wordpress/wp-content/uploads//2010/06/snoopypilotbw8.jpg",
-    author: "Snoopy"
+    photo_url:  "",
+    author: "Ace of the Sky"
   },
   {
     category: "Cultural Exposure",
     heading: "Traveled with a Diverse Group",
     body: "Took a journey through a variety of lands both with and encountering a variety of ethnicities",
     lesson: "Race relations, mediation, endurance",
-    photo_url: "http://img3.wikia.nocookie.net/__cb20130619032635/lotr/images/c/c5/Frodo_Baggins_and_Sam_Travel.png",
-    author: "Frodo Baggins"
+    photo_url: "",
+    author: "Fred Baggins"
   },
   {
     category: "Interpersonal Relationships",
     heading: "Working with an idol",
-    body: "Got the chance to do a miming exercise with Harpo Marx!",
+    body: "Got the chance to do improv with an idol",
     lesson: "How to be more intuitive",
-    photo_url: "https://nypdecider.files.wordpress.com/2014/08/i-love-lucy-lucy-meets-harpo-marx.png?w=642&h=428&crop=1",
-    author: "Lucy Ricardo"
+    photo_url: "",
+    author: "Lucy Sun"
   },
 ]
 

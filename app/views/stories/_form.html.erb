@@ -11,17 +11,17 @@
   </div>
 
   <div>
-   <%= f.label               :body, "Share your experience" %>
-   <%= f.text_area            :body %>
+   <%= f.label               :body, "Share your learning experience" %>
+   <%= f.text_area           :body %>
   </div>
 
   <div>
    <%= f.label               :lesson, "How did this experience benefit you?" %>
-   <%= f.text_field          :lesson %>
+   <%= f.text_area           :lesson %>
   </div>
 
   <div>
-   <%= f.label               :photo_url, "Add a photo url" %>
+   <%= f.label               :photo_url, "Add a photo url (optional)" %>
    <%= f.text_field          :photo_url %>
   </div>
 
@@ -33,4 +33,4 @@
    <%= f.submit %>
   </div>
 
-<% end %>  
+<% end %>

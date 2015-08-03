@@ -18,7 +18,7 @@
   text-align: center
 }
 
-body { 
+body {
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   color: #383737;
@@ -91,16 +91,26 @@ small {
   height: auto;
 }
 
+#story_body{
+  width: 90%;
+  min-height: 250px;
+}
+
+#story_lesson{
+  width: 90%;
+  min-height: 200px;
+}
+
 /*a normal, unvisited link*/
 a:link {
   text-decoration: none;
-  color: #668E39;
+  color: #648E45;
 }
 
 /*a link the user has visited*/
 a:visited {
   text-decoration: none;
-  color: #96B566;
+  color: #2F620E;
 }
 
 /*a link when the user mouses over it*/
@@ -111,7 +121,9 @@ a:hover {
 
 .categories {
   display: inline-block;
-  margin: 0 15%;
+  text-align: center;
+  position: relative;
+  margin: 0 15% 0 15%;
 }
 
 .category_icon {
@@ -169,7 +181,3 @@ a:hover {
   display: inline;
 }
 /*end of nav_bar*/
-
-
-
- 
