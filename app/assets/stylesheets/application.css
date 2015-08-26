@@ -181,3 +181,11 @@ a:hover {
   display: inline;
 }
 /*end of nav_bar*/
+
+.copyright {
+  color: red;
+}
+
+footer {
+  color: blue;
+}
